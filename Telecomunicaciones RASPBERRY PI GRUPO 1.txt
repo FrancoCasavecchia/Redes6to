@@ -1,0 +1,30 @@
+ACTIVIDAD RASPBERRY PI
+TELECOMUNICACIONES
+
+GRUPO:
+-BRIOLOTTI GONZALO
+-CARBEL MATIAS
+-CASAVECCHIA FRANCO
+-FERRERAS MANUEL
+
+PASOS LOS CAULES SEGUIMOS
+
+1-Entrar al link el cual indicaba la actividad para adentrar en el tema de el raspberry y su funcionamiento.
+2-Entramos al siguiente link donde teniamos que descargar el SO.Antes de eso tuvimos que instalar el RASPBERRY PI IMAGER para luego compilar el SO atraves de su memoria micro SD
+3-Luego de tener todo instalado conectamos la micro SD en el raspberry para ver si funcionaba y que el SO se hubiera instalado correctamente.
+4-Conectamos los cables necesario para el funcionaminto:
+	-MICRO SD
+	-HDMI
+	-TECLADO
+	-POWER
+	-ETHERNET
+5-Al finalizar la conexion prednimos el raspberry y dio imagen en el monitor.
+6-Para el ingreso y poder configurar nos pidio usuario y contraseña donde usamos:
+	Usuario pi
+	Contraseña raspberry
+7-Luego de esto empezamos a ver el video de SSH para saber que habia que hacer.
+8-Lo primero que realizamos fue instalar ssh server en la raspberry atraves del comando apt-get install opnessh-server.
+9-Luego lo activamos al servicio.
+10-para idetificar eñ host el cual teniamos usamos el siguiente comando ifconfig donde nos devolvio la ip en la cual estabamos como host.
+11-Luego de eso usamos el comando ssh y la ip que nos habia devuleto antes apra lograr conectarnos
+12-Al final de la conexion pudimos conectar ambos dispositivos y realizar funciones para ambos dispositivos.
